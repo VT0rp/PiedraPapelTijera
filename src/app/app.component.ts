@@ -52,7 +52,7 @@ export class AppComponent {
       this.setImagen(eleccionJugador);
       this.colorBotones(this.eleccionCPU);
       switch (this.eleccionCPU){
-        case 0:
+        case 0: //Piedra
           if (eleccionJugador == 0){
             this.empate();
           }else if (eleccionJugador == 1){
@@ -65,7 +65,7 @@ export class AppComponent {
             this.ganajugador();
           }
           break;
-        case 1: //papel
+        case 1: //Papel
           if (eleccionJugador == 1){
             this.empate();
           }else if (eleccionJugador == 0){
@@ -78,7 +78,7 @@ export class AppComponent {
             this.ganacpu();
           }
           break;
-        case 2: //tijera
+        case 2: //Tijera
           if (eleccionJugador == 2){
             this.empate();
           }else if (eleccionJugador == 0){
@@ -91,7 +91,7 @@ export class AppComponent {
             this.ganajugador();
           }
           break;
-        case 3: // lagarto
+        case 3: // Lagarto
           if (eleccionJugador == 3){
             this.empate();
           }else if (eleccionJugador == 0){
@@ -104,7 +104,7 @@ export class AppComponent {
             this.ganacpu();
           }
           break;
-        case 4: //spook
+        case 4: //Spock
           if (eleccionJugador == 4){
             this.empate();
           }else if (eleccionJugador == 0){
@@ -219,3 +219,4 @@ export class AppComponent {
     this.imagenJugador = this.imagenes[eleccionJugador];
   }
 }
+//Proyecto creado por Víctor Paredes Sala
