@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+.juego{
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: rgb(192, 209, 209);
+    height: auto;
+    margin-bottom: 5%;
+}
+.vanish{
+    display: none;
+}
+.CPUProgreso{
+    margin-left: 10%;
+    background-color: grey;
+    height: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.jugadorProgreso{
+    margin-left: 10%;
+    background-color: grey;
+    height: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.progress-bar{
+    height: 20px;
+}
+.btn{
+    margin-left: 2%;
+  }
+.imagen-explicacion{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
+}
+.botones-juegos{
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 5px;
+    height: 10%;
+    background-color: rgb(75, 174, 255);
+}
+.cpu-container{
+    margin-bottom: 50px;
+}
+.jugador-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.ronda{
+    margin-bottom: 50px;
+}
+.contenido{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(192, 209, 209);
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+.CPU-show{
+    text-align: center;
+    float: left;
+    height: 550px;
+    width: 50%;
+    background-color: rgb(192, 209, 209);
+}
+.jugador-show{
+    text-align: center;
+    float: left;
+    height: 550px;
+    width: 50%;
+    background-color: rgb(192, 209, 209);
+}
+.CPU-show img{
+    display: block;
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+}
+.jugador-show img{
+    display: block;
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+}
+.jugador-show h3{
+    text-align: center;
+}
+.CPU-show h3{
+    text-align: center;
+}
+.botones-importantes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+.texto{
+    text-align: center;
+}
